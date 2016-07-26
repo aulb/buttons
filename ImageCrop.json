@@ -1,0 +1,43 @@
+{
+	"commonParams": {
+		"dp": 1,
+		"method": 3,
+		"mSigma": 0.25,
+		"minDistRatio": 1.75,
+		"saveDestination": "Buttons/saved/",
+		"cannyThresh": 30,
+		"linesThresh": 90
+	},
+	"sizeParams": {
+		"S": {
+			"type": "circle",
+			"minDist": 35,
+			"minRadius": 50,
+			"maxRadius": 250
+		},
+		"N": {
+			"type": "circle",
+			"minDist": 50,
+			"minRadius": 135,
+			"maxRadius": 450
+		},	 
+		"M": {
+			"type": "circle",
+			"minDist": 50,
+			"minRadius": 175,
+			"maxRadius": 525
+		}, 
+		"L": {
+			"type": "circle",
+			"minDist": 50,
+			"minRadius": 225,
+			"maxRadius": 600
+		},
+		"X": {
+			"type": "circle",
+			"minDist": 50,
+			"minRadius": 10,
+			"maxRadius": 600
+		}
+	}
+}
